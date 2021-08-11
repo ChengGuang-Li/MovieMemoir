@@ -21,16 +21,10 @@
  <img  width="220px" height="450px" src="assets/home.png" alt="home"/>   
 </p>
 
-### Home Screen 
-
-<p align="center"> 
- <img  width="220px" height="450px" src="assets/home.png" alt="home"/>   
-</p>
-
 ### Sidebar
 
 <p align="center"> 
- <img  width="220px" height="450px" src="assets/sidebar.png" alt="sidebar"/>   
+ <img  width="220px" height="450px" src="assets/Sidebar.png" alt="sidebar"/>   
 </p>
 
 ### Movie View
