@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MovieMemoir</string>
+    <string name="user_email">User Email</string>
+    <string name="password">Password</string>
+    <string-array name="array_state">
+        <item>VIC</item>
+        <item>NSW</item>
+        <item>QLD</item>
+        <item>NT</item>
+        <item>SA</item>
+        <item>TAS</item>
+        <item>WA</item>
+        <item>ACT</item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string-array name="array_Cinema">
+        <item>Hoyts</item>
+        <item>Waverley cinema</item>
+        <item>classic cinema</item>
+        <item>palace cinema</item>
+        <item>Gold Class Cinema</item>
+        <item>xxx</item>
+    </string-array>
+    <string-array name="array_Postcode">
+        <item>3185</item>
+        <item>3149</item>
+        <item>3148</item>
+        <item>3141</item>
+    </string-array>
+    <string-array name="array_sort">
+        <item>-----</item>
+        <item>release date</item>
+        <item>rating</item>
+        <item>public review scores</item>
+    </string-array>
+    <string-array name="array_year">
+        <item>-----</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

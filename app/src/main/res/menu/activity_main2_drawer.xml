@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_MSearch"
+            android:icon="@drawable/search"
+            android:title="Movie Search" />
+        <item
+            android:id="@+id/nav_MMemoir"
+            android:icon="@drawable/memoir"
+            android:title="Movie Memoir" />
+        <item
+            android:id="@+id/nav_watchlist"
+            android:icon="@drawable/watchlist"
+            android:title="Watchlist" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/report"
+            android:title="Reports" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/map"
+            android:title="Maps" />
+    </group>
+</menu>

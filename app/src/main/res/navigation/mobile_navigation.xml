@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.moviememoir.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.moviememoir.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_MSearch"
+        android:name="com.example.moviememoir.ui.Search.MovieSearchFragment"
+        android:label="Movie Search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_MMemoir"
+        android:name="com.example.moviememoir.ui.Memoir.MovieMemoirFragment"
+        android:label="Movie Memoir"
+        tools:layout="@layout/fragment_memoir" />
+
+
+    <fragment
+    android:id="@+id/nav_watchlist"
+    android:name="com.example.moviememoir.ui.watchlist.WatchlistFragment"
+    android:label="Watchlist"
+    tools:layout="@layout/fragment_watchlist" />
+    <fragment
+    android:id="@+id/nav_reports"
+    android:name="com.example.moviememoir.ui.Reports.ReportsFragment"
+    android:label="Reports"
+    tools:layout="@layout/fragment_reports" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.example.moviememoir.ui.maps.MapFragment"
+        android:label="Maps"
+        tools:layout="@layout/fragment_maps" />
+
+</navigation>

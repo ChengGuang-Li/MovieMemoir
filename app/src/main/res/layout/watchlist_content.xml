@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/watchlist_name"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Movie name"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/watchlist_release"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp"
+        android:hint="03/05/2020"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/watchlist_addTime"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp"
+        android:hint="03/05/2020 13:55:33"
+        android:textSize="16sp"/>
+
+
+
+
+</LinearLayout>
